@@ -1,0 +1,4 @@
+ldb [16]
+jne #0x41, drop
+ret #-1
+drop: ret #0
